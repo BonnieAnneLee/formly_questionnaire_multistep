@@ -1,0 +1,11 @@
+<section>
+  <div class="main-form">
+    <formly-form-component
+      #formlyForm
+      [fields]="fields"
+    ></formly-form-component>
+  </div>
+  <div>
+    {{ model | json }}
+  </div>
+</section>
